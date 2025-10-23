@@ -1,0 +1,1 @@
+Our group learned how to use essential Git commands such as init, add, commit, push, pull, branch, merge, and status.
