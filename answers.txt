@@ -1,1 +1,42 @@
-1. The .git directory stores all version control data...
+1.The .git directory is a hidden folder created when you initialize a Git repository.
+It stores all version control information, including commits, branches, configuration settings, and the history of your project.
+In short, it’s where Git tracks and manages everything about your repository.
+
+2.git fetch downloads new data (commits, branches, tags) from the remote repository but does not change your local working files.
+
+git pull performs a fetch and then merges the remote changes into your current branch automatically.
+
+
+3.The staging area (also called the index) is an intermediate space where you prepare and review changes before committing them.
+It allows you to control what gets included in your next commit.
+
+4.This removes the file from the staging area but keeps your edits intact in the working directory.
+
+
+5.git revert creates a new commit that undoes changes from a previous commit — preserving history.
+
+git reset moves the branch pointer backward and can modify or erase commit history.
+
+Use revert for public repositories (safe), and reset for local cleanups (dangerous if pushed).
+
+
+
+6.Go to your GitHub repository page.
+
+Click Settings → Collaborators → Add people.
+
+Enter the collaborator’s GitHub username or email.
+
+Click Add collaborator and wait for them to accept the invitation.
+
+7.git branch
+
+
+8.This shows what has changed in your working files compared to the latest commit.
+
+9.They help you and your team understand why changes were made.
+Good messages improve project readability, collaboration, and debugging, especially when reviewing history or resolving issues.
+
+10.Nothing is sent to GitHub because there are no new commits to push.
+Git will report that “everything is up to date.”
+Only committed changes can be pushed to the remote repository
